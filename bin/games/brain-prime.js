@@ -13,4 +13,4 @@ const randomQuestionPrime = () => {
 
 const rulesGame = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
-game(rulesGame, randomQuestionPrime);
+games(rulesGame, randomQuestionPrime);

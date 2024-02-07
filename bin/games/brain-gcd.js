@@ -31,4 +31,4 @@ const randomQuestionGcd = () => {
 
 const rulesGame = 'Find the greatest common divisor of given numbers.';
 
-game(rulesGame, randomQuestionGcd);
+games(rulesGame, randomQuestionGcd);

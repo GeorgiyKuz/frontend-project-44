@@ -22,4 +22,4 @@ const randomQuestionProgression = () => {
 
 const rulesGame = 'What number is missing in the progression?';
 
-game(rulesGame, randomQuestionProgression);
+games(rulesGame, randomQuestionProgression);

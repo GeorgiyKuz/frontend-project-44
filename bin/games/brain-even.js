@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import { game, getRandomNumber } from '../../src/index.js';
+import { games, getRandomNumber } from '../../src/index.js';
 
 const randomQuestionParity = () => {
   const question = getRandomNumber(100);
@@ -9,4 +9,4 @@ const randomQuestionParity = () => {
 
 const rulesGame = 'Answer "yes" if the number is even, otherwise answer "no".';
 
-game(rulesGame, randomQuestionParity);
+games(rulesGame, randomQuestionParity);
