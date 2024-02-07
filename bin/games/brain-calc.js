@@ -2,8 +2,8 @@
 import { game, getRandomNumber } from '../../src/index.js';
 
 const randomQuestionCalc = () => {
-    const number1 = getRundomNumber (100);
-    const number2 = getRundomNumber (100);
+    const number1 = getRandomNumber (100);
+    const number2 = getRandomNumber (100);
     const operation = getRandomNumber(3);
     let correctAnswer = 0;
     let question = '';
