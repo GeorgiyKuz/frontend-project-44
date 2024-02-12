@@ -1,10 +1,10 @@
-import getRandomInRange from "../utils.js";
-import runEngineGame from "../index.js";
+import getRandomInRange from '../utils.js';
+import runEngineGame from '../index.js';
 
 const minStepProg = 1;
 const minProgLength = 5;
 const maxNum = 10;
-const rule = "What number is missing in the progression?";
+const rule = 'What number is missing in the progression?';
 
 const getProgression = (startNum, stepProg, progLength, positionUnknown) => {
   const progression = [startNum];
@@ -12,8 +12,8 @@ const getProgression = (startNum, stepProg, progLength, positionUnknown) => {
     const lastNum = progression[progression.length - 1];
     progression.push(lastNum + stepProg);
   }
-  progression[positionUnknown] = "..";
-  return progression.join(" ");
+  progression[positionUnknown] = '..';
+  return progression.join(' ');
 };
 
 const getRoundData = () => {

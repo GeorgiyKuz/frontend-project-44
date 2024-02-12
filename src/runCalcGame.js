@@ -1,17 +1,17 @@
-import runEngineGame from "../index.js";
-import getRandomInRange from "../utils.js";
+import runEngineGame from '../index.js';
+import getRandomInRange from '../utils.js';
 
-const rule = "What is the result of the expression?";
+const rule = 'What is the result of the expression?';
 
-const signs = ["+", "*", "-"];
+const signs = ['+', '*', '-'];
 
 const runCalculator = (num1, num2, operand) => {
   switch (operand) {
-    case "-":
+    case '-':
       return num1 - num2;
-    case "+":
+    case '+':
       return num1 + num2;
-    case "*":
+    case '*':
       return num1 * num2;
     default:
       throw new Error(`Unknown order state: '${operand}'!`);

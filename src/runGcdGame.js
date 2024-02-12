@@ -1,9 +1,9 @@
-import getRandomInRange from "../utils.js";
-import runEngineGame from "../index.js";
+import getRandomInRange from '../utils.js';
+import runEngineGame from '../index.js';
 
 const minNum = 1;
 const maxNum = 50;
-const rule = "Find the greatest common divisor of given numbers.";
+const rule = 'Find the greatest common divisor of given numbers.';
 
 const getGcd = (x, y) => {
   if (x === 0 || y === 0) return x + y;
