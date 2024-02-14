@@ -24,4 +24,7 @@ const runEngineGame = (getGameRound, rule) => {
   console.log(`Congratulations, ${name}!`);
 };
 
-export default runEngineGame;
+
+const getRandomInRange = (min = 0, max = 100) => Math.floor(min + Math.random() * (max - min + 1));
+
+export default ( runEngineGame, getRandomInRange );

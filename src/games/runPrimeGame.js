@@ -1,4 +1,4 @@
-import getRandomInRange from '../utils.js';
+import getRandomInRange from '../index.js';
 import runEngineGame from '../index.js';
 
 const rule = 'Answer "yes" if given number is prime. Otherwise answer "no".';

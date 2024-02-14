@@ -1,4 +1,4 @@
-import getRandomInRange from '../utils.js';
+import getRandomInRange from '../index.js';
 import runEngineGame from '../index.js';
 
 const minStepProg = 1;
