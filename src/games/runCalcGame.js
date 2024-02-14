@@ -1,5 +1,5 @@
 import runEngineGame from '../index.js';
-import getRandomInRange from '../index.js';
+import getRandomInRange from '../utils.js';
 
 const rule = 'What is the result of the expression?';
 
