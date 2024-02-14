@@ -24,5 +24,4 @@ const runEngineGame = (getGameRound, rule) => {
   console.log(`Congratulations, ${name}!`);
 };
 
-
 export default runEngineGame;
