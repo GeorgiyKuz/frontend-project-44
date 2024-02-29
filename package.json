@@ -9,7 +9,8 @@
     "lint": "npx eslint ."
   },
   "bin": {
-    "brain-games": "bin/brain-games.js"
+    "brain-games": "bin/brain-games.js",
+    "brain-scm": "bin/brain-scm.js"
   },
   "author": "Georgiy Kuznetsov",
   "license": "ISC",
