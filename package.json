@@ -1,7 +1,7 @@
 {
   "name": "@hexlet/code",
   "version": "1.0.0",
-  "description": "[![Actions Status](https://github.com/GeorgiyKuz/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/GeorgiyKuz/frontend-project-44/actions)",
+  "description": "",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -17,17 +17,17 @@
     "readline-sync": "^1.4.10"
   },
   "devDependencies": {
-    "eslint": "^8.56.0",
+    "eslint": "^8.57.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.29.1",
     "prettier": "^3.2.5"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GeorgiyKuz/frontend-project-44.git"
+    "url": "git+https://github.com/GeorgiyKuz/control-project.git"
   },
   "bugs": {
-    "url": "https://github.com/GeorgiyKuz/frontend-project-44/issues"
+    "url": "https://github.com/GeorgiyKuz/control-project/issues"
   },
-  "homepage": "https://github.com/GeorgiyKuz/frontend-project-44#readme"
+  "homepage": "https://github.com/GeorgiyKuz/control-project#readme"
 }

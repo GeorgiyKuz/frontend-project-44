@@ -1,1 +1,1 @@
-console.log("Choose the game!");
+console.log('Choose the game!');
